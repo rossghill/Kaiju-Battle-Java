@@ -17,5 +17,21 @@ public class KaijuTest {
     @Test
     public void kaijuCanRoar() {
         assertEquals("ROOOOOOOAAAAR", godzilla.roar("ROOOOOOOAAAAR"));
+        assertEquals("ROOOOOOOAAAAR", mothra.roar("ROOOOOOOAAAAR"));
     }
+
+    @Test
+    public void kaijuHasName() {
+        assertEquals("Michael", godzilla.returnName("Michael"));
+    }
+//
+//    @Test
+//    public void kaijuHasHealthValue() {
+//        assertEquals("Attack value: ");
+//    }
+
+//    @Test
+//    public void kaijuHasAttackValue() {
+//        assertEquals();
+//    }
 }
