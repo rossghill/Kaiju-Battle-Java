@@ -1,8 +1,14 @@
 public abstract class Kaiju {
 
-//    String monsterName;
-//    int healthValue;
-//    int attackValue;
+    String monsterName;
+    int healthValue;
+    int attackValue;
+
+    public Kaiju (String monsterName, int healthValue, int attackValue) {
+        this.monsterName = monsterName;
+        this.healthValue = healthValue;
+        this.attackValue = attackValue;
+    }
 
     public abstract String returnName(String monsterName);
 
@@ -11,7 +17,7 @@ public abstract class Kaiju {
         return "Health value: " + numberAsString;
     }
 
-    public String returnAttackValue(int attackValue){
+    public String returnAttackValue(int attackValue) {
         String numberAsString = Integer.toString(attackValue);
         return "Attack value: " + numberAsString;
     }
@@ -20,12 +26,11 @@ public abstract class Kaiju {
         return healthValue;
     }
 
-    public int returnAttackValueAsInt(int attackValue){
-        return attackValue;
-    }
-
-    public String roar(String makeRoar){
+    public String roar(String makeRoar) {
         return makeRoar;
     }
 
+    public int attack(int attackValue, int vehicleHealth) {
+        return attackValue - vehicleHealth;
+    }
 }

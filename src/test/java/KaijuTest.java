@@ -7,11 +7,15 @@ public class KaijuTest {
 
     Godzilla godzilla;
     Mothra mothra;
+    Tank tank;
+    Copter copter;
 
     @Before
     public void before(){
-        godzilla = new Godzilla();
-        mothra = new Mothra();
+        godzilla = new Godzilla("Steve", 200,120);
+        mothra = new Mothra("Mothboy", 140, 90);
+        tank = new Tank();
+        copter = new Copter();
     }
 
     @Test
@@ -40,20 +44,15 @@ public class KaijuTest {
 
     @Test
     public void kaijuHealthValueAsInt() {
-        assertEquals("Health value: 200", godzilla.returnHealthValue(200));
-        assertEquals("Health value: 140", mothra.returnHealthValue(140));
+        assertEquals(200, godzilla.returnHealthValueAsInt(200));
+        assertEquals(140, mothra.returnHealthValueAsInt(140));
     }
 
     @Test
-    public void kaijuAttackValueAsInt() {
-        assertEquals(120, godzilla.returnHealthValueAsInt(120));
-        assertEquals(90, mothra.returnAttackValueAsInt(90));
+    public void attack() {
+        assertEquals(120, godzilla.attack(120, ));
+        assertEquals(90, mothra.attack(90));
     }
-
-//    @Test
-//    public void kaijuCanReturnADamageAmount() {
-//        assertEquals();
-//    }
 
 
 }

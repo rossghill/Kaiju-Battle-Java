@@ -25,4 +25,9 @@ public class VehicleTest {
         assertEquals("Health value: 300", tank.returnHealthValue(300));
         assertEquals("Health value: 400", copter.returnHealthValue(400));
     }
+
+    @Test
+    public void vehicleHealthAsInt() {
+        assertEquals(300, tank.returnHealthValueAsInt(300));
+    }
 }
