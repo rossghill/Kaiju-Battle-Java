@@ -15,4 +15,8 @@ public abstract class Kaiju {
         String numberAsString = Integer.toString(attackValue);
         return "Attack value: " + numberAsString;
     }
+
+    public String roar(String makeRoar){
+        return makeRoar;
+    }
 }
