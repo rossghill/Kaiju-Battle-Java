@@ -19,4 +19,10 @@ public class VehicleTest {
         assertEquals("Army Tank", tank.returnType("Army Tank"));
         assertEquals("Military Chopper", copter.returnType("Military Chopper"));
     }
+
+    @Test
+    public void vehicleHasHealthValue() {
+        assertEquals("Health value: 300", tank.returnHealthValue(300));
+        assertEquals("Health value: 400", copter.returnHealthValue(400));
+    }
 }
