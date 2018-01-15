@@ -8,7 +8,7 @@ public abstract class Kaiju {
 
     public String returnHealthValue(int healthValue) {
         String numberAsString = Integer.toString(healthValue);
-        return "Attack value: " + numberAsString;
+        return "Health value: " + numberAsString;
     }
 
     public String returnAttackValue(int attackValue){

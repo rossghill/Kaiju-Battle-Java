@@ -25,15 +25,18 @@ public class KaijuTest {
         assertEquals("Giant Dino Thing", godzilla.returnName("Giant Dino Thing"));
         assertEquals("Creepy Moth Thing", mothra.returnName("Creepy Moth Thing"));
     }
-//
+
     @Test
     public void kaijuHasHealthValue() {
-        assertEquals("Attack value: 140", godzilla.returnAttackValue(140));
+        assertEquals("Health value: 200", godzilla.returnHealthValue(200));
+        assertEquals("Health value: 140", mothra.returnHealthValue(140));
+    }
+//
+    @Test
+    public void kaijuHasAttackValue() {
+        assertEquals("Attack value: 120", godzilla.returnAttackValue(120));
         assertEquals("Attack value: 90", mothra.returnAttackValue(90));
     }
 
-//    @Test
-//    public void kaijuHasAttackValue() {
-//        assertEquals();
-//    }
+
 }
