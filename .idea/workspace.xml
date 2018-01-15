@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663aa5b9-1cb3-4167-9f55-e13d3e53f9ce" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Kaiju.class" afterPath="$PROJECT_DIR$/out/production/classes/Kaiju.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Vehicle.class" afterPath="$PROJECT_DIR$/out/production/classes/Vehicle.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/KaijuTest.class" afterPath="$PROJECT_DIR$/out/test/classes/KaijuTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/VehicleTest.class" afterPath="$PROJECT_DIR$/out/test/classes/VehicleTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Godzilla.java" afterPath="$PROJECT_DIR$/src/main/java/Godzilla.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Copter.java" afterPath="$PROJECT_DIR$/src/main/java/Copter.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Kaiju.java" afterPath="$PROJECT_DIR$/src/main/java/Kaiju.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Mothra.java" afterPath="$PROJECT_DIR$/src/main/java/Mothra.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicle.java" afterPath="$PROJECT_DIR$/src/main/java/Vehicle.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tank.java" afterPath="$PROJECT_DIR$/src/main/java/Tank.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/KaijuTest.java" afterPath="$PROJECT_DIR$/src/test/java/KaijuTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/VehicleTest.java" afterPath="$PROJECT_DIR$/src/test/java/VehicleTest.java" />
     </list>
@@ -34,26 +28,24 @@
       <file leaf-file-name="Kaiju.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Kaiju.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="305">
+              <caret line="33" column="87" lean-forward="true" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
               <folding>
                 <element signature="e#764#765#0" expanded="true" />
                 <element signature="e#798#799#0" expanded="true" />
                 <element signature="e#841#842#0" expanded="true" />
                 <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#983#984#0" expanded="true" />
-                <marker date="1516052415000" expanded="true" signature="877:977" ph="..." />
+                <marker date="1516053852000" expanded="true" signature="877:1015" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="272">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="e#476#477#0" expanded="true" />
                 <element signature="e#510#511#0" expanded="true" />
@@ -88,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KaijuTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KaijuTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/KaijuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="226">
+              <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,12 +95,12 @@
       <file leaf-file-name="VehicleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/VehicleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+            <state relative-caret-position="177">
+              <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,10 +110,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Tank.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="5" />
+              <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="5" selection-end-column="5" />
               <folding>
-                <element signature="e#78#79#0" expanded="true" />
-                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,11 +122,11 @@
       <file leaf-file-name="Copter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Copter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+            <state relative-caret-position="34">
+              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding>
-                <element signature="e#80#81#0" expanded="true" />
-                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -447,14 +439,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Monster.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Godzilla.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mothra.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tank.java" />
         <option value="$PROJECT_DIR$/src/main/java/Copter.java" />
         <option value="$PROJECT_DIR$/src/test/java/VehicleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kaiju.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Godzilla.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Mothra.java" />
         <option value="$PROJECT_DIR$/src/test/java/KaijuTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Vehicle.java" />
       </list>
     </option>
   </component>
@@ -546,7 +538,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VehicleTest">
+  <component name="RunManager" selected="JUnit.KaijuTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -674,8 +666,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.VehicleTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.KaijuTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.KaijuTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.VehicleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -696,32 +688,32 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KaijuTest - 2018.01.15 at 20h 25m 40s.xml">
-      <configuration name="KaijuTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KaijuTest - 2018.01.15 at 20h 30m 13s.xml">
-      <configuration name="KaijuTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KaijuTest - 2018.01.15 at 20h 32m 06s.xml">
-      <configuration name="KaijuTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KaijuTest - 2018.01.15 at 20h 36m 29s.xml">
-      <configuration name="KaijuTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="KaijuTest - 2018.01.15 at 21h 14m 36s.xml">
       <configuration name="KaijuTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="KaijuTest - 2018.01.15 at 21h 16m 16s.xml">
       <configuration name="KaijuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VehicleTest - 2018.01.15 at 20h 50m 29s.xml">
-      <configuration name="VehicleTest" configurationId="JUnit" />
+    <history-entry file="KaijuTest - 2018.01.15 at 21h 54m 52s.xml">
+      <configuration name="KaijuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VehicleTest - 2018.01.15 at 21h 00m 55s.xml">
-      <configuration name="VehicleTest" configurationId="JUnit" />
+    <history-entry file="KaijuTest - 2018.01.15 at 21h 58m 25s.xml">
+      <configuration name="KaijuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VehicleTest - 2018.01.15 at 21h 02m 14s.xml">
-      <configuration name="VehicleTest" configurationId="JUnit" />
+    <history-entry file="KaijuTest - 2018.01.15 at 21h 59m 40s.xml">
+      <configuration name="KaijuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KaijuTest - 2018.01.15 at 21h 59m 53s.xml">
+      <configuration name="KaijuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KaijuTest - 2018.01.15 at 22h 02m 33s.xml">
+      <configuration name="KaijuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KaijuTest - 2018.01.15 at 22h 04m 14s.xml">
+      <configuration name="KaijuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KaijuTest - 2018.01.15 at 22h 04m 26s.xml">
+      <configuration name="KaijuTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="VehicleTest - 2018.01.15 at 21h 29m 41s.xml">
       <configuration name="VehicleTest" configurationId="JUnit" />
@@ -739,7 +731,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -777,17 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Copter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-          <folding>
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Battle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -796,25 +777,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mothra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="5" />
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="5" selection-end-column="5" />
           <folding>
-            <element signature="e#78#79#0" expanded="true" />
-            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Copter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/VehicleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+        <state relative-caret-position="177">
+          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -830,50 +844,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Mothra.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kaiju.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="305">
+          <caret line="33" column="87" lean-forward="true" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
           <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <marker date="1516053852000" expanded="true" signature="877:1015" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/KaijuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="226">
+          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kaiju.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <marker date="1516052415000" expanded="true" signature="877:977" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
           </folding>
         </state>
       </provider>

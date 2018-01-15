@@ -30,7 +30,7 @@ public abstract class Kaiju {
         return makeRoar;
     }
 
-    public int attack(int attackValue, int vehicleHealth) {
-        return attackValue - vehicleHealth;
+    public int attack(Kaiju kaiju, Vehicle vehicle) {
+        return vehicle.returnHealthValueAsInt(vehicle.healthValue) - kaiju.attackValue;
     }
 }

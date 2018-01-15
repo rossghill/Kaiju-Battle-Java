@@ -14,8 +14,8 @@ public class KaijuTest {
     public void before(){
         godzilla = new Godzilla("Steve", 200,120);
         mothra = new Mothra("Mothboy", 140, 90);
-        tank = new Tank();
-        copter = new Copter();
+        tank = new Tank("Army Tank", 300);
+        copter = new Copter("Military Chopper", 400);
     }
 
     @Test
@@ -50,9 +50,8 @@ public class KaijuTest {
 
     @Test
     public void attack() {
-        assertEquals(120, godzilla.attack(120, ));
-        assertEquals(90, mothra.attack(90));
+        assertEquals(180, godzilla.attack(godzilla, tank));
+        assertEquals(310, mothra.attack(mothra, copter));
     }
-
 
 }
