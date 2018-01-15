@@ -38,5 +38,22 @@ public class KaijuTest {
         assertEquals("Attack value: 90", mothra.returnAttackValue(90));
     }
 
+    @Test
+    public void kaijuHealthValueAsInt() {
+        assertEquals("Health value: 200", godzilla.returnHealthValue(200));
+        assertEquals("Health value: 140", mothra.returnHealthValue(140));
+    }
+
+    @Test
+    public void kaijuAttackValueAsInt() {
+        assertEquals(120, godzilla.returnHealthValueAsInt(120));
+        assertEquals(90, mothra.returnAttackValueAsInt(90));
+    }
+
+//    @Test
+//    public void kaijuCanReturnADamageAmount() {
+//        assertEquals();
+//    }
+
 
 }

@@ -16,7 +16,16 @@ public abstract class Kaiju {
         return "Attack value: " + numberAsString;
     }
 
+    public int returnHealthValueAsInt(int healthValue) {
+        return healthValue;
+    }
+
+    public int returnAttackValueAsInt(int attackValue){
+        return attackValue;
+    }
+
     public String roar(String makeRoar){
         return makeRoar;
     }
+
 }
